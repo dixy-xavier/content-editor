@@ -1,0 +1,30 @@
+.wrapper {
+  width: 200px;
+}
+
+.header {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.title {
+  color: #585858;
+}
+
+.list {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 5px 10px;
+  color: #0b0b0b;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
 import styles from './App.css';
 
-const arr = [1, 2, 3, 4, 5];
-console.log({...arr});
 
 const App = () => (
   <div className={styles.wrapper}>
-    Hello World!!!
+    <Header />
+    <Main />
   </div>
 );
 
