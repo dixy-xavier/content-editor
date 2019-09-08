@@ -6,7 +6,7 @@ import styles from './MarkdownContainer.css';
 const getElement = (type, setData, data) => {
   switch (type) {
     case 'INPUT':
-      return <MarkdownInput setData={setData} />;
+      return <MarkdownInput setData={setData} data={data} />;
     case 'PREVIEW':
       return <MarkdownOutput data={data} />;
     case 'RAW_HTML':

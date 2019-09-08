@@ -2,8 +2,8 @@ import classNames from 'classnames';
 import React from 'react';
 import styles from './List.css';
 
-const List = ({ data, classes = {} }) => (
-  <ul className={classNames(styles.list, classes.list)}>
+const List = ({ data, classes = {}, onClick = f => f }) => (
+  <ul className={classNames(styles.list, classes.list)} onClick={onClick}>
     {data.map(item => (
       <li
         key={item.label}

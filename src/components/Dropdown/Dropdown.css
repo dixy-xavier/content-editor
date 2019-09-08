@@ -19,6 +19,8 @@
 .list {
   border: 1px solid #e2e2e2;
   border-radius: 5px;
+  max-height: 200px;
+  overflow: auto;
 }
 
 .listItem {

@@ -34,7 +34,8 @@ const Card = ({ type = '', setData = f => f, data }) => {
       />
       <MarkdownContainer
         type={isInput ? type : isRaw ? 'RAW_HTML' : 'PREVIEW'}
-        {...isInput ? { setData } : { data }}
+        data={data}
+        {...isInput ? { setData } : {}}
       />
     </div>
   );
