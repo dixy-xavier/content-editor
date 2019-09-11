@@ -1,12 +1,14 @@
 # content-editor
 A page which shows a markdown template and its HTML
 
-##Prerequisites
+## Prerequisites
+
 ```npm```
 
 ```node```
 
-##Steps to run the application
+## Steps to run the application
+
 ```npm i```
 
 ```npm start```
